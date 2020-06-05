@@ -16,7 +16,7 @@ coverage==4.5.1
 decorator==4.2.1
 defusedxml==0.5.0
 dominate==2.3.1
-Flask==0.12.2
+Flask==1.0
 Flask-Babel==0.11.2
 Flask-Bootstrap==3.3.7.1
 Flask-HTTPAuth==3.2.3
