@@ -76,7 +76,7 @@ def insert_into_classroom(data_list):
 def insert_into_class(data_list):
     for data in data_list:
         cla = Class(id=data['id'],year=data['year'],term=data['term'], number=data['number'],
-                    max_people=data['max_people'],optional=data['optional'])
+                    max_people=data['max_people'],optional=bool(int(data['optional'])))
         course = Course.query.filter_by(id=data['course_id']).first()
         if course is not None:
             cla.course = course
@@ -170,7 +170,7 @@ insert_list = {'account': insert_into_account,
                 'teach':insert_into_Teach}
 
 
-def run_text():
+def main():
     file_data = get_data()
     for fun in insert_list:
         insert_list[fun](file_data[fun])

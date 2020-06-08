@@ -1,6 +1,6 @@
 id,name,type,credit,period
-SE3002L,Signals and Systems,4,4.0,64
-SE2007L ,OOPrograming ,1,3.5,56
-SE5003L,Database ,1,4.0,64
-HA8013 ,Aesthetics ,3,2.0,32
-EM100L ,Undertaking ,2,2.0,32
+SE3002L,Signals and Systems,4,4,64
+SE2007L,OOPrograming ,1,3.5,56
+SE5003L,Database ,1,4,64
+HA8013,Aesthetics ,3,2,32
+EM100L,Undertaking ,2,2,32
